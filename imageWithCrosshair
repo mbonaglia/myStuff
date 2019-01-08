@@ -6,7 +6,7 @@ cam= pysilico.camera('193.206.155.82',7100)
 frame= cam.getFutureFrames(1)
 image= frame.toNumpyArray()
 centerPixel= np.int(np.sqrt(image.size) / 2)
-while 1: grabAndShow(cam, [centerPixel, centerPixel])
+for i in range(10): grabAndShow(cam, [centerPixel, centerPixel])
 
 def grabAndShow(cam, referencePixel):
     image= cam.getFutureFrames(1).toNumpyArray()
