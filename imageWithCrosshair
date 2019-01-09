@@ -12,5 +12,5 @@ def grabAndShow(cam, referencePixel):
     image= cam.getFrameForDisplay().toNumpyArray()
     image[:, referencePixel[1]]= image.max()
     image[referencePixel[0], :]= image.max()
-    plt.imshow(image[200:300,200:300], origin='lower')
+    plt.imshow(image[:,:], origin='lower')
     plt.pause(0.01)
