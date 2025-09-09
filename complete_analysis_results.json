@@ -1,0 +1,37 @@
+{
+  "parameters": {
+    "shear_mm": 3.5,
+    "fringe_separation_mm": 5.5,
+    "aperture_diameter_mm": 50.0,
+    "wavelength_nm": 632.0
+  },
+  "zernike_coefficients": {
+    "Z_0^0": 0.0,
+    "Z_1^-1": 0.1785714285714286,
+    "Z_1^1": 0.1785714285714286,
+    "Z_2^-2": 0.3571428571428572,
+    "Z_2^0": 3.5714285714285716,
+    "Z_2^2": 0.3571428571428572,
+    "Z_3^-3": 0.0,
+    "Z_3^-1": 0.0,
+    "Z_3^1": 0.0,
+    "Z_3^3": 0.0
+  },
+  "beam_divergence": {
+    "divergence_radians": 0.00018057142857142857,
+    "divergence_degrees": 0.010345980757790864,
+    "divergence_mrad": 0.18057142857142858,
+    "divergence_arcmin": 0.6207588454674519,
+    "divergence_arcsec": 37.245530728047115
+  },
+  "beam_parameters": {
+    "radius_of_curvature_m": 138.4493670886076,
+    "beam_waist_um": 1114.0846016432674,
+    "rayleigh_range_mm": 6169.772319226957
+  },
+  "wavefront_quality": {
+    "rms_waves": 3.615795844877962,
+    "rms_nm": 2285.182973962872,
+    "strehl_ratio": 0.0
+  }
+}
